@@ -1,0 +1,18 @@
+#SONY misc
+service tad_static /system/bin/tad_static /dev/block/platform/msm_sdcc.1/by-name/TA 0,16
+    user root
+    group root
+    socket tad stream 0660 system system
+    class core
+
+#OSS WLAN setup
+service wcnss_addr /system/bin/wcnss_addr /sys/devices/fb000000.qcom,wcnss-wlan/wcnss_mac_addr
+    class main
+    user root
+    oneshot
+
+#OSS BT setup
+service bt_addr /system/bin/btnvtool -I
+    user root
+    group root
+    oneshot
