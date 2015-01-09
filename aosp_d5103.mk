@@ -26,6 +26,8 @@ PRODUCT_COPY_FILES += \
     device/sony/seagull/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     device/sony/seagull/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml \
     device/sony/seagull/rootdir/system/etc/sec_config:system/etc/sec_config \
+    device/sony/seagull/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    device/sony/seagull/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/seagull/rootdir/init.yukon.dev.rc:root/init.yukon.dev.rc \
     device/sony/seagull/rootdir/fstab.yukon:root/fstab.yukon \
     device/sony/seagull/rootdir/logo.rle:root/logo.rle
