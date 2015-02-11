@@ -28,8 +28,7 @@ PRODUCT_COPY_FILES += \
     device/sony/seagull/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/sony/seagull/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     device/sony/seagull/rootdir/init.yukon.dev.rc:root/init.yukon.dev.rc \
-    device/sony/seagull/rootdir/fstab.yukon:root/fstab.yukon \
-    device/sony/seagull/rootdir/logo.rle:root/logo.rle
+    device/sony/seagull/rootdir/fstab.yukon:root/fstab.yukon
 
 PRODUCT_PACKAGES += \
     keystore.msm8226
