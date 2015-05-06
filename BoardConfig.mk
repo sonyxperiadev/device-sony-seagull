@@ -14,6 +14,8 @@
 
 include device/sony/yukon/BoardConfig.mk
 
+TARGET_RECOVERY_FSTAB = device/sony/seagull/rootdir/fstab.yukon
+
 TARGET_BOOTLOADER_BOARD_NAME := D5103
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 2067791872
