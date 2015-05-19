@@ -702,14 +702,6 @@
         <ctl name="IIR1 INP1 MUX" value="DEC1" />
     </path>
 
-    <path name="speaker">
-        <ctl name="SLIM RX1 MUX" value="AIF1_PB" />
-        <ctl name="SLIM_0_RX Channels" value="One" />
-        <ctl name="RX4 MIX1 INP1" value="RX1" />
-        <ctl name="SPK DAC Switch" value="1" />
-        <ctl name="COMP0 Switch" value="1" />
-    </path>
-
     <path name="speaker-lite">
         <ctl name="SLIM RX1 MUX" value="AIF1_PB" />
         <ctl name="SLIM_0_RX Channels" value="One" />
@@ -717,6 +709,10 @@
         <ctl name="RX3 Digital Volume" value="84" />
         <ctl name="SPK DRV Volume" value="7" />
         <ctl name="SPK DAC Switch" value="1" />
+    </path>
+
+    <path name="speaker">
+        <path name="speaker-lite" />
     </path>
 
     <path name="speaker-ringtone">
