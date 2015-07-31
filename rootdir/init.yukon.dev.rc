@@ -4,6 +4,12 @@ service addrsetup /system/bin/addrsetup /sys/devices/fb000000.qcom,wcnss-wlan/wc
     user root
     oneshot
 
+#QCOM sensors
+service sensors /system/bin/sensors.qcom
+    class main
+    user root
+    group root
+
 #OSS BT setup
 service bt_addr /system/bin/btnvtool -I
     user root
