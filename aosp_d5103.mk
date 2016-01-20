@@ -38,6 +38,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     keystore.msm8226
 
+# NFC config
+PRODUCT_PACKAGES += nfc_nci.seagull
+ADDITIONAL_DEFAULT_PROPERTIES += ro.hardware.nfc_nci=seagull
+
 PRODUCT_NAME := aosp_d5103
 PRODUCT_DEVICE := seagull
 PRODUCT_MODEL := Xperia T3 (AOSP)
