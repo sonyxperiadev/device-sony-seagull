@@ -14,7 +14,7 @@
 
 include device/sony/yukon/PlatformConfig.mk
 
-TARGET_RECOVERY_FSTAB = device/sony/seagull/rootdir/fstab.yukon
+TARGET_RECOVERY_FSTAB = device/sony/seagull/rootdir/fstab.seagull
 
 TARGET_BOOTLOADER_BOARD_NAME := D5103
 
