@@ -39,7 +39,7 @@ PRODUCT_PACKAGES += \
 
 # Device Init
 PRODUCT_PACKAGES += \
-    fstab.yukon \
+    fstab.seagull \
     init.recovery.seagull \
     init.seagull \
     ueventd.seagull
