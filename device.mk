@@ -18,7 +18,7 @@ DEVICE_PACKAGE_OVERLAYS := \
 # Device etc
 PRODUCT_COPY_FILES := \
     device/sony/seagull/rootdir/system/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
-    device/sony/seagull/rootdir/system/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
+    device/sony/seagull/rootdir/system/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     device/sony/seagull/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml \
     device/sony/seagull/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     device/sony/seagull/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
